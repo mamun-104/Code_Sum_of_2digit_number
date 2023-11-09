@@ -1,0 +1,11 @@
+#Sum of  2 digit Number[10 - 99]
+
+a = input("Enter a 2 digit number: ")
+a = str(a)
+digit_1 = a[0]
+digit_2 = a[1]
+
+result = int(digit_1) + int(digit_2)
+result = str(result)
+
+print("Sum of the digits are: " + result)
